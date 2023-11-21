@@ -1,0 +1,252 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+.parent-header{
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 30px;
+}
+.logo{
+   display: flex;
+   font-size: 30px;
+}
+.logo img{
+   border-radius: 10px;
+   color: blue ;
+}
+
+.logo h3{
+   margin-left: 20px;
+   font-size: 50px;
+   font-family: sans-serif;
+}
+.parent-header ul {
+   display: flex;
+}
+.parent-header ul li{
+   padding: 30px;
+   list-style: none;
+   font-size: 30px;
+   font-family: sans-serif;
+}
+.parent-header ul li:first-child{
+   color: blueviolet;
+}
+.parent-header i{
+   font-size: 30px;
+   margin-top: 20px;
+}
+.BTN button{
+   background-color: blue;
+   color: white;
+   font-size: 18px;
+   width: 200px;
+   border-radius: 10px;
+   height: 60px;
+}
+
+.dhexda-parent{
+   background-color: rgb(124, 78, 228);;
+   
+   height: 550px;
+   display: flex;
+   justify-content: space-evenly;
+   margin-top: 50px;
+}
+.right-dhexda img{
+   padding-top: 100px;
+   border-radius: 0px;
+   width: 500px;
+   height: 400px;
+}
+.left-dhexda {
+   margin-left: -300px;
+   padding-top: 100px;
+}
+.left-dhexda h3{
+   color: white;
+   font-family: sans-serif;
+}
+.left-dhexda h1{
+   color: white;
+   padding-top: 20px;
+   font-size: 70px;
+   font-family: sans-serif;
+}
+.left-dhexda p{
+   color: rgb(206, 188, 245);
+   padding-top: 20px;
+   line-height: 20px;
+}
+.btn{
+   padding-top: 20px;
+}
+.btn button{
+   border: none;
+   background-color: white;
+   color: black;
+   font-size: 18px;
+   width: 200px;
+   border-radius: 10px;
+   height: 60px;
+}
+.development{
+   margin-top: 60px;
+   margin-left: 400px;
+}
+.development img{
+   position: relative;
+   height: 800px;
+  
+  
+}
+.content{
+   width: 800px;
+   position: absolute;
+   background-color: white;
+   border-radius: 12px;
+   padding: 20px;
+   box-shadow: 0px 0px 2px gray;
+   left: 50em;
+   bottom: -30em;
+}
+.development h1{
+   font-family: sans-serif;
+}
+.read1 {
+   padding-top: 10px;
+   border-radius: 2px rgb(206, 188, 245) solid ;
+   background-color: white;
+   color: rgb(206, 188, 245);
+   font-size: 18px;
+   width: 200px;
+   border-radius: 10px;
+   height: 40px;
+
+}
+.logo1{
+   display: flex;
+}
+.logo1 h4{
+   font-family: sans-serif;x
+}
+.child{
+   padding-top: 40px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.child h1{
+   margin-left: -500px;
+   font-size: 40px;
+   font-family: sans-serif;
+}
+.child button{
+   background-color: rgb(124, 78, 228);
+   color: white;
+   font-size: 18px;
+   width: 200px;
+   border-radius: 10px;
+   height: 60px;
+}
+
+
+.gma1{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 70px;
+}
+.pic2 img{
+   height: 500px;
+}
+.hed1{
+   display: flex; 
+}
+.hed1 h3{
+   font-family: sans-serif;
+}
+.hed1 p{
+   margin-left: 10px;
+   color: rgb(206, 188, 245);
+}
+.gma-R h1{
+   font-family: sans-serif;
+   font-size: 50px;
+   padding-top: 20px;
+}
+.gma-R p{
+color: rgb(206, 188, 245);
+font-family: sans-serif;
+padding-top: 10px;
+}
+
+.gma-R button{
+   margin-top: 70px;
+   color: rgb(206, 188, 245);
+   border: 3px rgb(206, 188, 245) solid;
+   border-radius: 10px;
+   width: 150px;
+   height: 40px;
+}
+.popular{
+   display: grid;
+   grid-template-columns: 300px 300px 300px;
+   gap: 90px;
+   justify-content: center;
+   padding-top: 50px;
+   margin-left: -700px;
+}
+.box img{
+   width: 350px;
+}
+.box h4{
+   font-size: 15px;
+   padding-bottom: 10px
+}
+.box p{
+   padding-bottom: 10px;
+}
+.logo2{
+   display: flex;
+}
+.logo2 h4{
+   font-family: sans-serif;
+
+}
+.box h4{
+   font-family: sans-serif;
+   font-size: 18px;
+}
+.fOOTER{
+   padding-left: 500px;
+  
+   padding-top: 50px;
+   background-color:rgb(124, 78, 228) ;
+}
+.fOOTER h1{
+   font-family: sans-serif;
+   font-size: 50px;
+   color: white;
+   
+}
+.last{
+   display: flex;
+   padding-top: 30px;
+   font-family: sans-serif;
+   font-size: 20px;
+}
+.fOOTER p{
+   color: wheat;
+   padding-top: 10px;
+}
+.last input{
+   height: 40px;
+   
+}
+.last button{
+   color: white;
+   background-color: rgb(124, 78, 228);
+   margin-left: 10px;
+   width: 150px;
+   border: 2px  white solid;
+}
